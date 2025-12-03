@@ -92,6 +92,7 @@
             Controls.Add(dgvCompare);
             FormBorderStyle = FormBorderStyle.None;
             Name = "CompareForm";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "CompareForm";
             Load += CompareForm_Load_1;
             ((System.ComponentModel.ISupportInitialize)dgvCompare).EndInit();

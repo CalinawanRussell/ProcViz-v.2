@@ -15,8 +15,8 @@ namespace ProcVIz
             _processes = processes;
             _quantum = quantum;
 
-            SetupGrid();       // define columns programmatically
-            LoadComparison();  // fill with results
+            SetupGrid();
+            LoadComparison();  
         }
 
         private void SetupGrid()
